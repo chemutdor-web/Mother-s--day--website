@@ -73,21 +73,7 @@ sections.forEach((section) => {
 });
 
 
-// ===============================
-// PLAY FAVORITE SONG BUTTON
-// ===============================
 
-const musicBtn = document.getElementById("musicBtn");
-
-if (musicBtn) {
-
-    const song = new Audio("song.mp3");
-
-    musicBtn.addEventListener("click", () => {
-
-        song.play();
-
-    });
 
 }
 
@@ -149,4 +135,3 @@ images.forEach((image) => {
 // ===============================
 
 console.log("Mother's Day Website Loaded Successfully 💖");
-}
