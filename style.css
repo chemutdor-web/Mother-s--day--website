@@ -111,7 +111,7 @@ nav a{
     transition: 0.4s;
     height:300px;
     display: block;
-    transform: scale(1.1);
+    transform: scale(1.5);
     transition: 0.4s;
 }
 .card:hover img{
