@@ -31,6 +31,9 @@ nav{
     align-items: center;
 
 }
+section{
+    animation:fadeIn 2s ease;
+}
 .logo{
     color: whitesmoke;
     font-size: 2rem;
@@ -111,7 +114,7 @@ nav a{
     transition: 0.4s;
     height:300px;
     display: block;
-    transform: scale(1.5);
+    transform: scale(1.8);
     transition: 0.4s;
 }
 .card:hover img{
