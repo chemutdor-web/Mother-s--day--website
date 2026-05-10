@@ -14,7 +14,7 @@ surpriseBtn.addEventListener("click",() => {
 const heartsContainer = document.querySelector(".hearts");
 function createHeart() {
     const heart = document.createElement("span");
-    const emojis =  ["💖", "🌸", "💕", "💗", "✨];
+    const emojis =  ["💖", "🌸", "💕", "💗", "✨"];
     heart.innerHTML = emojis[Math.floor(Math.random() * emojis.length)];
 
     heart.style.left = Math.random() * 100 + "vw";
