@@ -1,12 +1,12 @@
 body{
-    font-family: poppins,sans-serif;
-    background: #fff7f8;
+    font-family:Arial, sans-serif;
+    background: linear-gradient(to right,#ffe0ec,#fff7f8);
     color: #333;
 }
 
 .hero{
     height: 100vh;
-    padding: 100px 20px;
+    padding:60px;
     background-size:cover;
     display: flex;
     justify-content: center;
@@ -60,12 +60,12 @@ nav a{
 .hero-content h1{
     margin-bottom: 20px;
     font-family: 'Dancing Script',cursive;
-    font-size: 4rem;
-    color:white;
+    font-size: 50px;
+    color:deeppink;
 
 }
 .hero-content p{
-    max-width: 600px;
+    max-width: 250px;
     margin:auto;
     font-size: 1.3rem;
     line-height: 1.8;
@@ -141,6 +141,20 @@ nav a{
 
 .letter-card p{
     line-height: 2;
+}
+
+.hearts{
+    position:fixed;
+    width: 100px;
+    overflow:hidden;
+    top:0;
+    left:o;
+}
+.hearts span{
+    position: absolute;
+    color:pink;
+    font-size: 20px;
+    animation: float 10s linear infinite;
 }
 .love-section{
     padding: 80px;
